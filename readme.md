@@ -20,7 +20,9 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT `name`,`surname`,`date_of_birth`
+    FROM `students`
+    WHERE `date_of_birth` <= DATE_SUB(CURDATE(), INTERVAL 30 YEAR)
 
 - 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
      laurea (286)
