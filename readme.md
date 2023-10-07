@@ -48,7 +48,9 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT `id`,`name`,`level`
+    FROM `degrees`
+    WHERE `level` = 'magistrale';
 
 - 7. Da quanti dipartimenti è composta l'università? (12)
 
