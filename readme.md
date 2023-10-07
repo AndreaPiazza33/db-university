@@ -63,4 +63,6 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT COUNT(*)
+    FROM `teachers`
+    WHERE `phone` IS NULL;
