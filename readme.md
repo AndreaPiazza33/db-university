@@ -56,7 +56,8 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT COUNT(*)
+    FROM `departments`;
 
 - 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 
