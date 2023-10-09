@@ -12,7 +12,9 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT COUNT(id), `office_address`
+    FROM `teachers`
+    GROUP BY `office_address`;
 
 - 3. Calcolare la media dei voti di ogni appello d'esame
 
