@@ -20,7 +20,9 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT AVG(`vote`) AS 'media voto', `exam_id` AS 'appello esame'
+    FROM `exam_student`
+    GROUP BY `exam_id`;
 
 - 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
 
