@@ -28,7 +28,9 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT COUNT('numero corsi di laurea'), `department_id` AS 'dipartimento'
+    FROM `degrees`
+    GROUP BY `department_id`;
 
 # QUERY JOIN:
 
