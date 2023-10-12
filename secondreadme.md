@@ -74,7 +74,13 @@
 
 ### Query da eseguire:
 
-    -
+    SELECT `students`.`surname`,`students`.`registration_number`,`degrees`.`name`,`departments`.`name`
+    FROM `students`
+    JOIN `degrees`
+    ON `students`.`degree_id`= `degrees`.`id`
+    JOIN `departments`
+    ON `degrees`.`department_id` = `departments`.`id`
+    ORDER BY `students`.`surname`, `students`.`name`;
 
 - 5. Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti
 
